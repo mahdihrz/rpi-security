@@ -32,8 +32,8 @@ setup(
         'pyyaml',
         'kamene==0.32',
         'Pillow==6.2.1',
-        'opencv-contrib-python==4.5.3.56',
-        'opencv-contrib-python-headless==4.5.3.56',
+        'opencv-contrib-python',
+        'opencv-contrib-python-headless',
     ],
     classifiers = [
         'Environment :: Console',
