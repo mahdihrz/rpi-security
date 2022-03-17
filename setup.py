@@ -20,9 +20,9 @@ setup(
         ('/var/lib/rpi-security', ['etc/data.yaml'])
     ],
     install_requires = [
-        'python-telegram-bot==12.2.0',
-        'picamera==1.13',
-        'imutils==0.5.2',
+        'python-telegram-bot',
+        'picamera',
+        'imutils',
         'numpy',
         'configparser',
         'requests',
@@ -30,8 +30,8 @@ setup(
         'netaddr',
         'netifaces',
         'pyyaml',
-        'kamene==0.32',
-        'Pillow==6.2.1',
+        'kamene',
+        'Pillow',
         'opencv-contrib-python',
         'opencv-contrib-python-headless',
     ],
